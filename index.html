@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3D Dictionary Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="navbar">
+        <a href="#" onclick="showSection('dictionary')">Dictionary</a>
+        <a href="#" onclick="showSection('about')">About</a>
+        <a href="#" onclick="showSection('contact')">Contact</a>
+    </div>
+    
+    <div id="dictionary" class="section">
+        <div class="container">
+            <div class="card">
+                <h1>3D Dictionary</h1>
+                <input type="text" id="search-box" placeholder="Enter a word">
+                <button onclick="searchWord()">Search</button>
+                <div id="result"></div>
+            </div>
+        </div>
+    </div>
+    
+    <div id="about" class="section hidden">
+        <div class="container">
+            <div class="card">
+                <h1>About</h1>
+                <p>This dictionary website allows users to search for words and get definitions, synonyms, and more. Created with 3D effects for an interactive experience.</p>
+            </div>
+        </div>
+    </div>
+    
+    <div id="contact" class="section hidden">
+        <div class="container">
+            <div class="card">
+                <h1>Contact</h1>
+                <p>Email: ps956984mishr@gmail.com</p>
+                <p>Instagram: urr_prashant</p>
+                <p>Phone: 9569845304</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
